@@ -1,0 +1,17 @@
+CREATE TABLE LOAD_STRAVA (	
+Activity_Date		TIMESTAMP_NTZ(9),
+Activity_ID		VARCHAR(1000),
+Type		VARCHAR(1000),
+Activity_Name		VARCHAR(1000),
+Distance_miles		VARCHAR(1000),
+Moving_Time_hours		VARCHAR(1000),
+Total_Elevation_Gain_feet		VARCHAR(1000),
+Average_Speed_mph		VARCHAR(1000),
+Max_Speed_mph		VARCHAR(1000),
+Distance_meters		VARCHAR(1000),
+Moving_Time_seconds		VARCHAR(1000),
+Total_Elevation_Gain_meters		VARCHAR(1000),
+Average_Speed_meters_sec		VARCHAR(1000),
+Max_Speed_meters_sec		VARCHAR(1000),
+File_Name		VARCHAR(1000),
+Load_Date		TIMESTAMP_NTZ(9))
